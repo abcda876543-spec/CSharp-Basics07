@@ -4,11 +4,11 @@ using System.Text;
 
 namespace C__Basics07
 {
-    internal class Book
+     class Book
     {
-        class Book
-        {
+      
              private string password = "secret";
-        }
+            internal int copiesInStock = 5;
+        
     }
 }
