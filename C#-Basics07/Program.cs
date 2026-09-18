@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Question 1
+            Book book = new Book();
+            Console.WriteLine(book.password);
+            //it gives a compile error because password is peivate and only can be accessed in Book class
+            #endregion
         }
     }
+
 }
