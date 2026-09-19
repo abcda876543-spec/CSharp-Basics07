@@ -9,6 +9,7 @@ namespace C__Basics07
       
              private string password = "secret";
             internal int copiesInStock = 5;
-        public string Title;
+            public string Title;
+            public Genre Genre;
     }
 }

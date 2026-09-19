@@ -1,5 +1,12 @@
-﻿namespace C__Basics07
+﻿
+namespace C__Basics07
 {
+    enum Genre
+    {
+        Fiction,
+        NonFiction,
+        Science
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -19,6 +26,11 @@
             #region Question 3
            book.Title = "c sharp basics";
             Console.WriteLine(book.Title);
+            #endregion
+
+            #region Question 4
+            book.Genre = Genre.Science;
+            Console.WriteLine(book.Genre);
             #endregion
         }
     }
