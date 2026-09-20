@@ -58,6 +58,17 @@ namespace C__Basics07
                 Console.WriteLine(text);
             }
             #endregion
+
+            #region Question 8
+            {
+                string genreText = "Science";
+
+                Genre genre = Enum.Parse<Genre>(genreText);
+
+                Console.WriteLine(genre);
+            }
+            
+            #endregion
         }
     }
 
