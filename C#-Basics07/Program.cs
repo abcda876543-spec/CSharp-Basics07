@@ -40,11 +40,23 @@ namespace C__Basics07
             #endregion
 
             #region Question 6
-            int genreNumber = 1;
+            {
+                int genreNumber = 1;
 
-            Genre genre = (Genre)genreNumber;
+                Genre genre = (Genre)genreNumber;
 
-            Console.WriteLine(genre);
+                Console.WriteLine(genre);
+            }
+            #endregion
+
+            #region Question 7
+            {
+                Genre genre = Genre.Fiction;
+
+                string text = genre.ToString();
+
+                Console.WriteLine(text);
+            }
             #endregion
         }
     }
