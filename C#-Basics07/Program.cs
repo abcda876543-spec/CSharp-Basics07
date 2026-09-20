@@ -67,7 +67,22 @@ namespace C__Basics07
 
                 Console.WriteLine(genre);
             }
-            
+
+            #endregion
+
+            #region Question 9
+            {
+                string genreText = "Mystery";
+
+                if (Enum.TryParse<Genre>(genreText, out Genre genre))
+                {
+                    Console.WriteLine(genre);
+                }
+                else
+                {
+                    Console.WriteLine("Unknown genre");
+                }
+            }
             #endregion
         }
     }
